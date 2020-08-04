@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 0);
+  }
+  
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    
+
+}
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    transition: 1s;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 1s;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: 1s;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+  .first-image{
+    padding: 200px 200px;
+    margin-top: 20px;
+    background-image: url("Valentino.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .name h1{
+      margin-top: -20px;
+      text-align: center;
+      color: white;
+      font-weight: lighter;
+  }
+
+  .name button{
+        height:40px; 
+        width:120px; 
+        margin: -20px -50px; 
+        position:relative;
+        top:50%; 
+        left:50%;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding: auto;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        transition: 1s;
+        text-decoration: none;
+
+  }
+
+  .name button a{
+    text-decoration: none;
+    color: white
+  }
+
+  .name button:hover{
+    border-radius: 50px;
+    transition: 1s;
+    background-color: white;
+    color: black;
+  }
+
+  .name button a:hover{
+    color: black;
+  }
+
+
+  .avatar img{
+       border-radius: 50px;
+       width: 150px;
+   }
+
+  .avatar a{
+       text-align: center;
+   }
+
+  .education{
+    margin-top: 90px;
+    color: white;
+    
+  }
+
+  .imgunimet{
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .unimet{
+    transition: 1s;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .unimet:hover{
+    border-radius: 50px;
+    transition: 1s;
+    color: black;
+  }
+
+  .education p{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+
+  }
+
+  .infoedu{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .unimet{
+      max-width: 100%;
+      height: auto;
+    }
+
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .unimet{
+      max-width: 100%;
+      height: auto;
+    }
+
+  }
+
+
+
+  #SkillBox {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 95%;
+    height: auto;
+    margin: 40px auto;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+    -ms-border-radius:20px;
+    -moz-border-radius:20px;  
+}
+#SkillBox img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+}
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(100, 100, 100, 0.3);
+    margin: 20px auto;
+}
+
+#Skill-HTML {
+    width: 90%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #ff0e0e;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}
+
+#Skill-CSS {
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 75%;
+    height: 50px;
+    position: absolute;
+    background-color: #00ffea;
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-moz-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}
+
+#Skill-jQuery {
+    animation: Animate-jQuery 5s;
+    -webkit-animation: Animate-jQuery 5s;
+    -moz-animation: Animate-jQuery 5s;
+    -o-animation: Animate-jQuery 5s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: #d9ff00;
+}
+@keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-webkit-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-moz-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-o-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}
+
+#Skill-JS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #0044ff;
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}
+
+#Skill-PHP {
+    animation: Animate-PHP 4s;
+    -webkit-animation: Animate-PHP 4s;
+    -moz-animation: Animate-PHP 4s;
+    -o-animation: Animate-PHP 4s;
+    width: 60%;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(43, 255, 0);
+}
+@keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-webkit-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-moz-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-o-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}
+
+#Skill-Flutter {
+    animation: Animate-VBNET1 4s;
+    -webkit-animation: Animate-VBNET1 4s;
+    -moz-animation: Animate-VBNET1 4s;
+    -o-animation: Animate-VBNET1 4s;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: #5300be;
+}
+@keyframes Animate-VBNET1 {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-webkit-keyframes Animate-VBNET1 {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-moz-keyframes Animate-VBNET1 {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-o-keyframes Animate-VBNET1 {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}
+
+#Skill-Angular {
+  animation: Animate-VBNET 4s;
+  -webkit-animation: Animate-VBNET 4s;
+  -moz-animation: Animate-VBNET 4s;
+  -o-animation: Animate-VBNET 4s;
+  width: 40%;
+  height: 50px;
+  position: absolute;
+  background-color: #ff7300;
+}
+@keyframes Animate-VBNET {
+  from {
+  width: 10px;
+}
+to {
+  width: 40%}
+}@-webkit-keyframes Animate-VBNET {
+  from {
+  width: 10px;
+}
+to {
+  width: 40%}
+}@-moz-keyframes Animate-VBNET {
+  from {
+  width: 10px;
+}
+to {
+  width: 40%}
+}@-o-keyframes Animate-VBNET {
+  from {
+  width: 10px;
+}
+to {
+  width: 40%}
+}
+
+#Skill-Plus {
+  animation: Animate-VBNET2 4s;
+  -webkit-animation: Animate-VBNET2 4s;
+  -moz-animation: Animate-VBNET2 4s;
+  -o-animation: Animate-VBNET2 4s;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  background-color: #ff00bf;
+}
+@keyframes Animate-VBNET2 {
+  from {
+  width: 10px;
+}
+to {
+  width: 100%}
+}@-webkit-keyframes Animate-VBNET2 {
+  from {
+  width: 10px;
+}
+to {
+  width: 100%}
+}@-moz-keyframes Animate-VBNET2 {
+  from {
+  width: 10px;
+}
+to {
+  width: 100%}
+}@-o-keyframes Animate-VBNET2 {
+  from {
+  width: 10px;
+}
+to {
+  width: 100%}
+}
+
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  grid-gap: 5px;
+  grid-auto-flow: dense;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+}
+
+.horizontal{
+  grid-column: span 2;
+}
+.vertical {
+  grid-row: span 2;
+}
+.big{
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+
+.contact {
+  margin-top: 60px;
+  background-color: black;
+  margin-bottom: 60px;
+}
+
+.contact a{
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.gmail{
+  font-size: 18px;
+}
+
+.contact a:hover{
+  transition: 1s;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 10px;
+}
+
+

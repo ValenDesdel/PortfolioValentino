@@ -46,10 +46,10 @@ h1{
   }
 
   .first-image{
-    padding: 200px 200px;
+    padding: 180px 0px;
     margin-top: 20px;
     background-image: url("Valentino.png");
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 410px;
   }

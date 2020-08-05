@@ -51,6 +51,7 @@ h1{
     background-image: url("Valentino.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 450px;
   }
 
   .name h1{
@@ -177,6 +178,20 @@ h1{
       height: auto;
     }
 
+  }
+
+  @media screen and (max-width: 600px){
+    h1{
+      text-align: center;
+    }
+
+    a{
+      text-align: center;
+    }
+
+    p{
+      text-align: center;
+    }
   }
 
 
@@ -519,6 +534,18 @@ to {
     color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+}
+
+@media screen and (max-width: 600px){
+
+  .Skill-Area{
+    font-size: 12px;
+  }
+
+  .PercentText{
+    font-size: 0%;
+  }
+
 }
 
 .container {

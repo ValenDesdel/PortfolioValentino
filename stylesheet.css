@@ -178,6 +178,8 @@ h1{
       height: auto;
     }
 
+
+
   }
 
   @media screen and (max-width: 600px){
@@ -195,6 +197,12 @@ h1{
 
     p{
       text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .first-image{
+      background-position: center;
       margin-left: auto;
       margin-right: auto;
     }

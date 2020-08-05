@@ -51,7 +51,7 @@ h1{
     background-image: url("Valentino.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 450px;
+    background-size: 410px;
   }
 
   .name h1{
@@ -183,14 +183,20 @@ h1{
   @media screen and (max-width: 600px){
     h1{
       text-align: center;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     a{
       text-align: center;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     p{
       text-align: center;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -583,6 +589,11 @@ to {
   color: white;
   text-decoration: none;
   transition: 1s;
+}
+
+.contact p{
+  color: rgba(255, 255, 255, 0.445);
+  text-align: center;
 }
 
 .gmail{
